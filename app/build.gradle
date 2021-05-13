@@ -20,11 +20,11 @@ android {
     buildTypes {
         debug {
             buildConfigField "String", "BASE_URL", "\"https://api.giphy.com/v1/gifs/\""
-            buildConfigField "String", "API_KEY", "\"Xka3Or4g7IIwD1HSY1zCI6AR7v3eUG8y\""
+            buildConfigField "String", "API_KEY", "\"Xka3Or4g7IIwD1HSY1zCI6AR7v3eUG8y\"" // Note: this would go preferably in gradle.properties
         }
         release {
             buildConfigField "String", "BASE_URL", "\"https://api.giphy.com/v1/gifs/\""
-            buildConfigField "String", "API_KEY", "\"Xka3Or4g7IIwD1HSY1zCI6AR7v3eUG8y\""
+            buildConfigField "String", "API_KEY", "\"Xka3Or4g7IIwD1HSY1zCI6AR7v3eUG8y\"" // Note: this would go preferably in gradle.properties
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
