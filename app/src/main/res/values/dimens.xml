@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_medium_size">16dp</dimen>
+    <dimen name="favorite_width">200dp</dimen>
+    <dimen name="favorite_height">209dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+</resources>
